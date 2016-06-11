@@ -4,7 +4,7 @@
 
 **passap** project.
 
-passap è l' acronymo per "**passatempo applicato**" 
+passap è l'acronimo per "**passatempo applicato**" 
 
 ### Membri del Team
 
@@ -16,24 +16,24 @@ passap è l' acronymo per "**passatempo applicato**"
 
 ### Idea
 
-L'idea nasce per risolvere il problema dell'inquinamente luminoso e i lampioni pubblici che non sono a norma.
-Con i panelli solari flessibili LSC, creiamo de capelli per comprire i lampioni e usare quindi la luce in eccesso per creare energia.
-Questa energia sara usata dai sensori di CO2, o altri dati di inquinamento presenti sui capelli che mandarano i dati ad un cloud monitorare il livello di CO2 nella  città.
+L'idea nasce per risolvere il problema dell'inquinamento luminoso e i lampioni pubblici che non sono a norma.
+Con i panelli solari flessibili LSC, creiamo dei cappelli per coprire i lampioni e usare quindi la luce in eccesso per creare energia.
+Questa energia sarà usata dai sensori di CO2, o altri dati di inquinamento presenti sui cappelli che manderanno i dati ad un cloud per monitorare il livello di CO2 nella  città.
 
 Use Cases:
 
-1. In città monitoraggio di parametri di inquinamento della citta a costo contenuto.
+1. In città, monitoraggio di parametri di inquinamento della citta a costo contenuto.
 
-2. In casa, creare un sistema Iot dove i sensori di Temperatura e umidita sarano instalati sui capelli fotovoltaici LSC,
+2. In casa, creare un sistema Iot dove i sensori di temperatura e umidità saranno installati sui cappelli fotovoltaici LSC,
 
 ### The architecture
 
-IBM bluemix con Watso broker per il servisio Cloud
+IBM bluemix con Watso broker per il servizio Cloud
 Applicazione android client per avere i dati in tempo reale
-Sensori di umidita,temperatura, CO2
-Shede ATtiny85  + ESP8266
+Sensori di umidita, temperatura, CO2
+Schede ATtiny85 + ESP8266
 
-### Pasap Breakdown Structure
+### Passapp Breakdown Structure
 
 * Project Setup
 
@@ -58,13 +58,13 @@ Shede ATtiny85  + ESP8266
 * Rendering del prodotto
 
   - [ ] Lampione non in regola
-  - [ ] Lampione con capello solare
+  - [ ] Lampione con cappello solare
 
 * Prepare il pitch
   - [ ] Prepare pitch 
-  - [ ] Slide deck for the Hackaton 
+  - [ ] Slide deck for the Hackathon 
 
-* Assemblare i pezzi della demo finale dell' Hackaton
+* Assemblare i pezzi della demo finale dell'Hackathon
 
   - [ ] Prepare demo storyboard 
   - [ ] Lanciare le schede
@@ -75,7 +75,7 @@ Shede ATtiny85  + ESP8266
 
 * [ ] ...
 
-* [ ] Watsapp compra pasapp e passiamo alla storia!
+* [ ] Whatsapp compra passapp e passiamo alla storia!
 
 ### Sites
 
