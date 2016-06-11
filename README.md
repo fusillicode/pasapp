@@ -51,16 +51,16 @@ Schede ATtiny85 + ESP8266
 
 * Infrastruttura
 
-  - [X] [Setup Devops Service (CD) ]
+  - [X] Setup Devops Service (CD) 
 
 * passap Ruby Application 
-  - [ ] [Design and develop App]
-    - [X] [Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data]
-    - [ ] [Google Maps con marker]
+  - [ ] Design and develop App
+    - [X] Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data
+    - [ ] Google Maps con marker
 * passap Android Application 
-  - [ ] [Design and develop App]
-      [ ] [App with webview and Cloud]
-      [ ] [App with API and data visualisation]
+  - [ ] Design and develop App
+    - [ ] App with webview and Cloud
+    - [ ] App with API and data visualisation
      
 
 * Rendering del prodotto
