@@ -1,17 +1,19 @@
 module Api
   class SensorsDataController < BaseController
     def index
-      @sensors_data = SensorData.all
+      @sensors_data = SensorDatum.all
     end
 
     def create
-      SensorData.create raw_data: request.body.read.to_json
+      @sensor_datum = SensorDatum.new(raw_data: sensor_datum_params)
+      return render_created(api_sensors_datum_url(@sensor_datum)) if @sensor_datum.save
+      render_errors @sensor_datum
     end
 
     private
 
-    def sensors_data_params
-      params
+    def sensor_datum_params
+      params[:sensors_datum]
     end
   end
 end

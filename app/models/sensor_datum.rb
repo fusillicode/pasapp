@@ -1,4 +1,4 @@
-class SensorData < ActiveRecord::Base
+class SensorDatum < ActiveRecord::Base
   self.table_name = "sensors_data"
   belongs_to :light_source
 end
