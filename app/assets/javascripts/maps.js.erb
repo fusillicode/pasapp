@@ -26,7 +26,12 @@ function initMap() {
         var marker = this
         var infowindow = new google.maps.InfoWindow();
         $.get("api/light_sources/" + marker.id_light_source, function(sensors_data) {
-          infowindow.setContent("Valore di CO<sub>2</sub>: " + sensors_data[0]['raw_data']['co2'] + " ppm");
+          var info = [
+            "Valore di CO<sub>2</sub>: " + sensors_data[0]['raw_data']['co2'] + " ppm",
+            "Temperatura: " + sensors_data[0]['raw_data']['temperature'] + "°C",
+            "Umidità: " + sensors_data[0]['raw_data']['humidity'] + "%"
+          ].join('<br>');
+          infowindow.setContent(info);
           infowindow.open(map, marker);
         });
       });
