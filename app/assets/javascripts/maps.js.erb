@@ -24,6 +24,10 @@ function initMap() {
       }).addListener('click', function () {
         $.get("api/light_sources/" + this.id_light_source, function(sensors_data) {
           console.log(sensors_data);
+          var infowindow = new google.maps.InfoWindow({
+            content: sensors_data.first.co2
+          });
+          infowindow.open(map,marker);
         });
       });
     })
