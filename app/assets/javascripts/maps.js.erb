@@ -10,13 +10,14 @@ function initMap() {
   };
   map = new google.maps.Map(mapContainer[0], {
     center: position,
-    zoom: 12
+    zoom: 10
   });
   $.get("api/light_sources", function(light_sources) {
-    $.each(light_sources, function(light_source) {
+    $.each(light_sources, function(i, light_source) {
       if (light_source.configuration_data == undefined) {
         return;
       }
+      console.log(light_source.configuration_data.position);
       marker = new google.maps.Marker({
         position: light_source.configuration_data.position,
         map: map
