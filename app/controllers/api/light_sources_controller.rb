@@ -5,7 +5,7 @@ module Api
     end
 
     def show
-      @sensors_data = LightSource.find(params[:id]).sensors_data
+      @sensors_data = LightSource.find(params[:id]).sensors_data.order(created_at: :desc)
     end
   end
 end
