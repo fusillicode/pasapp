@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160611201818) do
+ActiveRecord::Schema.define(version: 20160612005147) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "light_sources", force: :cascade do |t|
     t.string "name"
+    t.jsonb  "configuration_data"
   end
 
   create_table "sensors_data", force: :cascade do |t|

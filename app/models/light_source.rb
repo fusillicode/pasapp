@@ -1,13 +1,12 @@
 class LightSource < ActiveRecord::Base
-  before_save :set_random_coordinates_if_missing
+  before_save :set_random_coordinates
 
   has_many :sensors_data, class_name: 'SensorDatum'
 
   private
 
-  def set_random_coordinates_if_missing
-    return if self.raw_data[:position].present?
-    self.raw_data = raw_data.merge random_position
+  def set_random_coordinates
+    self.configuration_data = random_position
   end
 
   def random_position
