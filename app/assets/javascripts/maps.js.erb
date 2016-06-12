@@ -26,7 +26,7 @@ function initMap() {
           var contentString = sensors_data.first.raw_data.co2;
           console.log(contentString);
           var infowindow = new google.maps.InfoWindow({
-            content: contentString
+            content:"Hello World!"
           });
           infowindow.open(map,marker);
         });
