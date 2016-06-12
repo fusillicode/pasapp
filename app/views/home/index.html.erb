@@ -1,2 +1,2 @@
 <div id="map"> </div>
-<%= pie_chart SensorDatum.group_by_minute(:created_at).count %>
+<%= line_chart SensorDatum.group_by_minute(:created_at).count %>
