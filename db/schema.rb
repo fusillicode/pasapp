@@ -11,19 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160612005147) do
+ActiveRecord::Schema.define(version: 20160612032031) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "light_sources", force: :cascade do |t|
-    t.string "name"
-    t.jsonb  "configuration_data"
+    t.string   "name"
+    t.jsonb    "configuration_data"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "sensors_data", force: :cascade do |t|
-    t.integer "light_source_id"
-    t.jsonb   "raw_data",        null: false
+    t.integer  "light_source_id"
+    t.jsonb    "raw_data",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "sensors_data", ["light_source_id"], name: "index_sensors_data_on_light_source_id", using: :btree
