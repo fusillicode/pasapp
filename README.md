@@ -56,17 +56,18 @@ Schede ATtiny85 + ESP8266
 * passap Ruby Application 
   - [ ] Design and develop App
     - [X] Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data
-    - [ ] Google Maps con marker
+    - [X] Google Maps con marker
+     - [ ] InfoWindow onclick Event
 * passap Android Application 
   - [ ] Design and develop App
-    - [ ] App with webview and Cloud
+    - [X] App with webview and Cloud
     - [ ] App with API and data visualisation
      
 
 * Rendering del prodotto
 
-  - [ ] Lampione non in regola
-  - [ ] Lampione con cappello solare
+  - [X] Lampione non in regola
+  - [X] Lampione con cappello solare
 
 * Prepare il pitch
   - [ ] Prepare pitch 
