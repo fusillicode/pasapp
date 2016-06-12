@@ -14,6 +14,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'groupdate'
+gem 'hightop'
+gem 'active_median'
+gem "chartkick"
+
 group :development, :test do
   gem 'pry'
   gem 'dotenv-rails'
