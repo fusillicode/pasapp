@@ -23,12 +23,10 @@ function initMap() {
         id_light_source: light_source.id
       }).addListener('click', function () {
         $.get("api/light_sources/" + this.id_light_source, function(sensors_data) {
-          var data = JSON.parse(sensors_data[0]);
+          var data = sensors_data[0];
           var data2 = data['raw_data'];
           console.log(data2);
-          var data3 = JSON.parse(data2);
-          console.log(data3);
-          var contentString = data["co2"];
+          var contentString = data2['co2'];
           console.log(contentString);
           var infowindow = new google.maps.InfoWindow({
             content: contentString
