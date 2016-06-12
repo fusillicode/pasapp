@@ -21,18 +21,14 @@ function initMap() {
         position: light_source.configuration_data.position,
         map: map,
         id_light_source: light_source.id
-      }).addListener('click', function () {
-        $.get("api/light_sources/" + this.id_light_source, function(sensors_data) {
-          var data = sensors_data[0];
-          var data2 = data['raw_data'];
-          var contentString = data2['co2'];
-          console.log(contentString);
-          var infowindow = new google.maps.InfoWindow({
-            content: contentString
-          });
-          
+      })
+      marker.addListener('click', function () {
+        var marker = this
+        var infowindow = new google.maps.InfoWindow();
+        $.get("api/light_sources/" + marker.id_light_source, function(sensors_data) {
+          infowindow.setContent("Valore di CO<sub>2</sub>: " + sensors_data[0]['raw_data']['co2'] + " ppm");
+          infowindow.open(map, marker);
         });
-        infowindow.open(map,marker);
       });
     })
   })
