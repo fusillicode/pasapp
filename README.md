@@ -17,7 +17,7 @@ passap è l'acronimo per "**passatempo applicato**"
 ### Idea
 
 L'idea nasce per risolvere il problema dell'inquinamento luminoso e i lampioni pubblici che non sono a norma.
-Con i panelli solari flessibili LSC, creiamo dei cappelli per coprire i lampioni e usare quindi la luce in eccesso per creare energia.
+Con i panelli solari flessibili OPV, creiamo dei cappelli per coprire i lampioni e usare quindi la luce in eccesso per creare energia.
 Questa energia sarà usata dai sensori di CO2, o altri dati di inquinamento presenti sui cappelli che manderanno i dati ad un cloud per monitorare il livello di CO2 nella  città.
 
 Use Cases:
@@ -40,7 +40,7 @@ Use Cases:
 * Project Setup
 
   - [X] Creare bluemix project - http://pasapp.mybluemix.net/
-    - [X] Creare herokuapp project - http://pasapp.herokuapp.com/ 
+    - [X] Creare herokuapp project - http://lightpredator.herokuapp.com/
   - [X] Documentare i membri del Team, competenze
   - [ ] Scrivere e accettare un piano di task
   - [X] Creare chat room - See http://pasapp.slack.com
@@ -54,8 +54,8 @@ Use Cases:
   - [X] Setup Devops Service (CD) 
 
 * passap Ruby Application 
-  - [ ] Design and develop App
-    - [X] Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data
+  - [X] Design and develop App
+    - [X] Servizio API con JSON - http://lightpredator.herokuapp.com/api/sensors_data
     - [X] Google Maps con marker
      - [X] InfoWindow onclick Event
 * passap Android Application 
@@ -71,14 +71,14 @@ Use Cases:
 
 * Prepare il pitch
   - [ ] Prepare pitch 
-  - [ ] Slide deck for the Hackathon 
+  - [X] Slide deck for the Hackathon 
 
 * Assemblare i pezzi della demo finale dell'Hackathon
 
-  - [ ] Prepare demo storyboard 
-  - [ ] Lanciare le schede
-  - [ ] Metere LSC nella lampada
-  - [ ] Controllare i dati del Cloud
+  - [X] Prepare demo storyboard 
+  - [X] Lanciare le schede
+  - [X] Metere OPV nella lampada
+  - [X] Controllare i dati del Cloud
 
 * [ ] Pitch at the end of the hackaton
 
