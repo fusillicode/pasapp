@@ -23,9 +23,10 @@ function initMap() {
         id_light_source: light_source.id
       }).addListener('click', function () {
         $.get("api/light_sources/" + this.id_light_source, function(sensors_data) {
-          console.log(sensors_data);
+          var contentString = sensors_data.first.raw_data.co2;
+          console.log(contentString);
           var infowindow = new google.maps.InfoWindow({
-            content: sensors_data.first.raw_data.co2
+            content: contentString
           });
           infowindow.open(map,marker);
         });
