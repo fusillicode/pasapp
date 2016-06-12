@@ -13,7 +13,7 @@ this.initMap = function() {
     zoom: 12
   });
   $.get("api/sensors_data", function(sensors_data) {
-    sensors_data.each(function(sensor_datum) {
+    $.each(sensors_data, function(sensor_datum) {
       marker = new google.maps.Marker({
         position: position,
         map: map
