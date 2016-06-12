@@ -9,7 +9,7 @@
     <title>Dashboard - Passap</title>
 
     <!-- Bootstrap core CSS -->
-  
+
     <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
 
     <!-- Add custom CSS here -->
@@ -64,7 +64,7 @@
                   <a href="#">
                     <span class="avatar"><img src="http://placehold.it/50x50"></span>
                     <span class="name">Mario Rossi:</span>
-                    <span class="message">Ciao, Il livello del CO2 dei via...</span>
+                    <span class="message">Ciao, Il livello del CO<sub>2</sub> dei via...</span>
                     <span class="time"><i class="fa fa-clock-o"></i> 4:34 PM</span>
                   </a>
                 </li>
@@ -106,7 +106,7 @@
             </ol>
             <div class="alert alert-success alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Benvenuto nel cloud di <a class="alert-link" href="http:http://pasapp.herokuapp.com/">passap</a>! Sulla mappa ci sono i lampioni della tua città. clicca sul Marker per vedere il livello di CO2.
+              Benvenuto nel cloud di <a class="alert-link" href="http:http://pasapp.herokuapp.com/">passap</a>! Sulla mappa ci sono i lampioni della tua città. clicca sul Marker per vedere il livello di CO<sub>2</sub>.
             </div>
           </div>
         </div><!-- /.row -->
@@ -122,7 +122,7 @@
     <!-- JavaScript -->
     <%= javascript_include_tag 'jquery-1.10.2', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'bootstrap', 'data-turbolinks-track' => true %>
-  
+
 
     <!-- Page Specific Plugins -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
@@ -130,7 +130,7 @@
     <%= javascript_include_tag 'chart-data-morris', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'jquery.tablesorter', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'tables', 'data-turbolinks-track' => true %>
-  
+
 
   </body>
   <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?callback=initMap", async: 'true', defer: 'true' %>
