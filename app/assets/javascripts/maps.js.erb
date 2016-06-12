@@ -1,0 +1,23 @@
+this.initMap = function() {
+  var map, mapContainer, marker, position;
+  mapContainer = $('#map');
+  if (mapContainer.length === 0) {
+    return;
+  }
+  position = {
+    lat: Number(45.4654),
+    lng: Number(9.1859)
+  };
+  map = new google.maps.Map(mapContainer[0], {
+    center: position,
+    zoom: 12
+  });
+  $.get("api/sensors_data", function(sensors_data) {
+    sensors_data.each(function(sensor_datum) {
+      marker = new google.maps.Marker({
+        position: position,
+        map: map
+      });
+    })
+  })
+};

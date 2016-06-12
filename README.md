@@ -28,8 +28,10 @@ Use Cases:
 
 ### The architecture
 
-IBM bluemix con Watso broker per il servizio Cloud
-Applicazione android client per avere i dati in tempo reale
+IBM bluemix con Watson broker per il servizio Cloud
+* Plan B: herokuapp
+Cloud: Applicazione Ruby on rails
+Applicazione android client per avere i dati in tempo reale e per installare i lampioni (posizione GPS viene mandata la server)
 Sensori di umidita, temperatura, CO2
 Schede ATtiny85 + ESP8266
 
@@ -37,7 +39,8 @@ Schede ATtiny85 + ESP8266
 
 * Project Setup
 
-  - [X] Creare bluemix project - See http://pasapp.mybluemix.net/
+  - [X] Creare bluemix project - http://pasapp.mybluemix.net/
+    - [X] Creare herokuapp project - http://pasapp.herokuapp.com/ 
   - [X] Documentare i membri del Team, competenze
   - [ ] Scrivere e accettare un piano di task
   - [X] Creare chat room - See http://pasapp.slack.com
@@ -48,12 +51,17 @@ Schede ATtiny85 + ESP8266
 
 * Infrastruttura
 
-  - [X] [Setup Devops Service]
+  - [X] Setup Devops Service (CD) 
 
 * passap Ruby Application 
-  - [ ] [Design and develop App]
+  - [ ] Design and develop App
+    - [X] Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data
+    - [ ] Google Maps con marker
 * passap Android Application 
-  - [ ] [Design and develop App]
+  - [ ] Design and develop App
+    - [ ] App with webview and Cloud
+    - [ ] App with API and data visualisation
+     
 
 * Rendering del prodotto
 
