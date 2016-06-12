@@ -1,8 +1,8 @@
 # Light Predator
 
---> logo goes here <--
 
-**Light Predator** project from passap Team.
+
+**Light Predator** è un progetto del Team passap.
 
 passap è l'acronimo per "**passatempo applicato**" 
 
@@ -10,14 +10,14 @@ passap è l'acronimo per "**passatempo applicato**"
 
 1. [Wilfried Mbouenda Mbogne](https://github.com/WillyShakes) - Architecture, Android guru, Marketing
 1. [Gianluca Randazzo](https://github.com/fusilicode) - Iot, Backend developer, Ruby, php
-1. [Vincenzo Tartaglia](https://github.com/vincenzot) - Designer, 3D Modelling, Developer, c, Visula Basic
+1. [Vincenzo Tartaglia](https://github.com/vincenzot) - Designer, 3D Modelling, Developer, c, Visual Basic
 1. [Jacopo Diamanti](https://github.com/?) - Iot, Hardware trainer and developer, python, c, Marketing
 1. Ettore Murfuni - Docente ITP di Fisica, Hardware developer, c++
 
 ### Idea
 
 L'idea nasce per risolvere il problema dell'inquinamento luminoso e i lampioni pubblici che non sono a norma.
-Con i panelli solari flessibili OPV, creiamo dei cappelli per coprire i lampioni e usare quindi la luce in eccesso per creare energia.
+Con i pannelli solari flessibili OPV, creiamo dei cappelli per coprire i lampioni e usare quindi la luce in eccesso per creare energia.
 Questa energia sarà usata dai sensori di CO2, o altri dati di inquinamento presenti sui cappelli che manderanno i dati ad un cloud per monitorare il livello di CO2 nella  città.
 
 Use Cases:
