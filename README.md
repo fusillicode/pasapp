@@ -1,8 +1,8 @@
-# pasapp
+# Light Predator
 
 --> logo goes here <--
 
-**passap** project.
+**Light Predator** project from passap Team.
 
 passap è l'acronimo per "**passatempo applicato**" 
 
@@ -28,12 +28,12 @@ Use Cases:
 
 ### The architecture
 
-IBM bluemix con Watson broker per il servizio Cloud
-* Plan B: herokuapp
-Cloud: Applicazione Ruby on rails
-Applicazione android client per avere i dati in tempo reale e per installare i lampioni (posizione GPS viene mandata la server)
-Sensori di umidita, temperatura, CO2
-Schede ATtiny85 + ESP8266
+* IBM bluemix con Watson broker per il servizio Cloud
+  * Plan B: herokuapp
+* Cloud: Applicazione Ruby on rails
+* Applicazione android client per avere i dati in tempo reale e per installare i lampioni (posizione GPS viene mandata la server)
+* Sensori di umidita, temperatura, CO2
+* Schede ATtiny85 + ESP8266
 
 ### Passapp Breakdown Structure
 
@@ -84,7 +84,7 @@ Schede ATtiny85 + ESP8266
 
 * [ ] ...
 
-* [ ] Whatsapp compra passapp e passiamo alla storia!
+* [ ] Whatsapp compra LightPredator e passa passa alla storia!
 
 ### Sites
 
