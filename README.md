@@ -57,7 +57,7 @@ Use Cases:
   - [ ] Design and develop App
     - [X] Servizio API con JSON - http://pasapp.herokuapp.com/api/sensors_data
     - [X] Google Maps con marker
-     - [ ] InfoWindow onclick Event
+     - [X] InfoWindow onclick Event
 * passap Android Application 
   - [ ] Design and develop App
     - [X] App with webview and Cloud
