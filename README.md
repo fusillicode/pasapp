@@ -94,9 +94,7 @@ Use Cases:
 
 #### The hardware for Hackaton PoC demo
 
-* [ATtiny85](www.atmel.com/devices/attiny85.aspx)
-* [ESP8266](https://en.wikipedia.org/wiki/ESP8266)
-
+* [Arduino yun mini](http://www.arduino.org/products/boards/arduino-yun-mini)
 
 A big thanks to the sponsors:
 
